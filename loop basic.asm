@@ -5,6 +5,7 @@
 org 100h
 
 mov cx,10
+;mov cx,0 for infinite loop
 mov bx,1
 
 loop_:
