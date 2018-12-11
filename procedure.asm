@@ -10,10 +10,18 @@ mov ax,10
 hlt
 myprocedure PROC
     mov ax,1
+    CALL newprocedure
     inc ax
     ret
    
 myprocedure ENDP
+
+newprocedure PROC
+    mov bx,1
+    inc bx
+    ret
+    
+newprocedure ENDP
 
 ret
 
